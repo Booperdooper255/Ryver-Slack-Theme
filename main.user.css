@@ -12,18 +12,18 @@
 .scene-space-tab-button--selected, .scene-space-tab-button--selected:hover{
     background-color:#1164A3!important;
 }
-.team-teammates__item > div > div:nth-child(1) > img{
+.team-teammates__item > div > div:nth-child(1) > img, .scene-space__drawer > div > div:nth-child(1) > img{
     width: 24px;
     position: absolute;
     height: 24px;
     z-index: 2;
 }
-.team-teammates__item > div > div:nth-child(1) > div{
-    width: 130%;
-    left: -4px;
-    bottom: -4px;
+.team-teammates__item > div > div:nth-child(1) > div, .scene-space__drawer > div > div:nth-child(1) > div{
+    width: 115%;
+    left: -1.54px;
+    bottom: -2px;
     z-index: 1;
-    height: 130%;
+    height: 115%;
 }
 .view-body>div{
     background-color:white;
