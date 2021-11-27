@@ -1,0 +1,202 @@
+*{
+    --accent: white;
+    --font: Brandon Text,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif!important;
+}
+
+.theme-novus-dark .detail, .theme-novus-dark .chat-common, .theme-novus-dark .chat-common .chat-common__last-seen-label, body:not(.is-phone).theme-novus-dark .view-header, .theme-novus-dark .chat-common .chat-common__message-container, .scene-space-tab-button:hover, div[id^="ryver_view_task"] > div > div, .post-list .scroll-container, .view > div, .view-container.pane__container, .notification-list__item-body, .notification-list__item-container, div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div, .scene-space__footer:hover, .theme-novus--dark-nav .scene-space-tab-button__presence, .theme-novus-dark .scene-space-tab-button__presence, div[id^="ryver_view_task"]>div>div>div>div, li.select-item:hover, .preview-image-dialog__body, .preview-image-dialog__actions, .full-scroller__content > div, div[style ^= "font-size: 16px; color: rgba(176, 190, 197, 0.6); padding: 0px 24px 24px; box-sizing: border-box; overflow-y: auto; border-top: 1px solid rgb(55, 71, 79); border-bottom: 1px solid rgb(55, 71, 79);"] > div > div > div:nth-child(2), div[style = "color: rgb(176, 190, 197); height: 36px; line-height: 36px; overflow: hidden; opacity: 1; position: relative; padding: 0px 40px 0px 0px; text-overflow: ellipsis; top: 0px; white-space: nowrap;"], input.text-field__input, div.create-task__assignees, div.create-task__tasks > div:nth-child(2) > div, div[role = "combobox"] > div, div.update-task__tags > div:nth-child(2) > div, .full-scroller.view-task-dialog>div>div>div>div>div, .full-scroller.view-task-dialog>div>div>div>div>div>div>div:nth-child(1)>div:nth-child(2),body:not(.is-phone).theme-novus-dark .view-header, .full-scroller.view-task-dialog>div>div>div, .create-task__category > div:nth-child(2) > div, div.user-card__content > div, div.user-list-item__name, div.row.user-row {
+    background-color:  white!important;
+}
+.scene-space-tab-button:hover, .scene-space__footer:hover, li.select-item:hover {
+    background-color: #3F0E40!important;
+}
+.scene-space-tab-button--selected, .scene-space-tab-button--selected:hover{
+    background-color:#1164A3!important;
+}
+.view-body>div{
+    background-color:white;
+}
+div.select-field.sidebar-select > div > div:nth-child(1) > div:nth-child(2), div[data-id = "admins"] > div > span, div[data-id = "members"] > div > span, div[data-id = "admins"] > button > div > svg, div[data-id = "members"] > button > div > svg, .theme-novus .scene-space-tab-button > span, [class ^= "team-teammates__item-name"], div.scene-space__navigation-instance, div[role = "menu"] > div > span > div > i, div[class^= "user-profile"]{
+    color: white!important;
+}
+/*black*/
+.theme-novus--dark-nav .scene-space__footer, .theme-novus-dark .scene-space__footer, .theme-novus-dark .scene-space-tab-button, .scene-space__buttons, .theme-novus-dark .markdown-editor .markdown-editor__input, .theme-novus-dark .chat-editor__emoji, .theme-novus-dark .chat-editor__file .files-field__added, .theme-novus-dark .chat-editor__file .files-field__externals, body:not(.is-phone).theme-novus-dark .view-toolbar, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:after, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:hover, .view:nth-child(3) > div > div > div > div > div, .view.teammates-list > div > div, div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(2), div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(3), div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(4), .theme-novus--dark-nav .scene-space-tab-button--selected, .theme-novus-dark .scene-space-tab-button--selected, .popup.emoji__popup.is-active{
+    background: #4A154B;
+}
+/*black but important*/
+body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:after, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:hover, .view:nth-child(3) > div > div > div > div > div > div > div:nth-child(1) > button > span, .is-loading, .popup-emoji__quick, .theme-novus-dark .popup-emoji__scroller, li.select-item, .select-field.sidebar-select, .tabbed__sidebar-container > div, .select-field > div > div, .view.files-list > div > div:nth-child(2), .popup-emoji__search-container > div > input, div[style = "color: rgb(176, 190, 197); height: 36px; line-height: 36px; overflow: hidden; opacity: 1; position: relative; padding: 0px 40px 0px 0px; text-overflow: ellipsis; top: 0px; white-space: nowrap;"], div.user-profile, div.user-profile > div > div{
+    background-color: #4A154B!important;
+}
+div.scene-space__footer-navigation{
+    background: #3F0E40!important;
+    border-bottom: #3F0E40!important;
+    height: 103%;
+}
+[class ^= "team-teammates__item-name"] > span{
+    font-weight:900;
+}
+div.chat-editor{
+    border: 1px solid #c3d1dd;
+    padding:3px;
+}
+.popup-emoji__tab .material-icons, span[style = "position: relative; opacity: 1; font-size: 14px; letter-spacing: 0px; text-transform: uppercase; font-weight: 500; margin: 0px; user-select: none; padding-left: 16px; padding-right: 16px; color: rgb(176, 190, 197);"] {
+    color: #4A154B!important;
+}
+.chat-message__item-action-container, .chat-message__item-retry-container, .entity-list__item-avatar-presence{
+    border:none;
+}
+.popup.emoji__popup.is-active, .popup-emoji__search-container > div > input{
+    border-radius:20px!important;
+}
+/*.theme-novus-dark .chat-message .chat-message__from:hover~.chat-message__events .chat-message__item:first-of-type, .theme-novus-dark .chat-message .chat-message__item--actions-expanded, .theme-novus-dark .chat-message .chat-message__item:hover, .theme-novus-dark .entity-list__item, .post-item__container, .theme-novus-dark .post-item .post-item__comments-container, .view:nth-child(3) > div > div > div > div > div > div:nth-child(2) > div, .chat-message__item:hover{
+    background-color: white;
+}*/
+.chat-editor__message .markdown-editor__input, .chat-editor__emoji, .chat-editor__file .files-field__externals{
+    border:0px;
+    height: 36px;
+}
+.forum-tabbed__detail-content-name{
+    font-weight: 700!important;
+    font-size: 25px!important;
+    font-family: var(--font)!important;
+    text-rendering: optimizeLegibility;
+}
+span.scene-space-tab-button__title{
+    font-family: var(--font)!important;
+    text-rendering: optimizeLegibility;
+}
+.theme-novus-dark ::-webkit-scrollbar-thumb, .theme-novus-dark .button.is-primary, div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(3) > div > button, .theme-novus-dark ::-webkit-scrollbar-thumb, .theme-novus-dark .button.is-primary:hover, div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(3) > div > button:hover, .theme-novus--dark-nav .scene-space-tab-button:hover .scene-space-tab-button__presence, .scene-space__below-fold, .preview-image-dialog__actions>div[style = 'color: rgb(176, 190, 197); background-color: rgb(31, 41, 46); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; box-sizing: border-box; font-family: "Open Sans", sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px; border-radius: 2px; display: inline-block; min-width: 88px;']>button{
+    background-color: var(--accent)!important;
+    border-color: var(--accent)!important;
+}
+.scene-space-tab-button__presence, span.team-teammates__item > div > div:nth-child(1) > div:nth-child(2){
+    border: none!important;
+    background-color: #8d9195!important;
+}
+.theme-novus--dark-nav .scene-space__navigation-instance, .theme-novus-dark .scene-space__navigation-instance, .theme-novus--dark-nav .scene-space-tab-button--expandable .scene-space-tab-button__title, .theme-novus-dark .scene-space-tab-button--expandable .scene-space-tab-button__title, .view-body > div > div > div > span, label.label, .markdown-post-editor__toolbar > button > i{
+    color: var(--accent)!important;
+}
+.popup-emoji__tabs{
+    background-color: var(--accent)!important;
+}
+span.is-link.chat-message__from-name, .tabbed__tab-buttons > div > div  > div, [class ^="create-task"] > label.label, div.create-task__subject > label.label, .markdown-post-editor__toolbar > button > i, div.user-card__content > div:nth-child(1) > div:nth-child(3) > button > div > svg, div.user-card__content > div:nth-child(1) > div:nth-child(3) > button > i, div.user-card__content > div:nth-child(1), .tabbed__detail-content > span, span[class $= "menu-active"] > div > div{
+    color: #1d1c1d!important;
+}
+.create-task__category > div:nth-child(2) > div:nth-child(1) > button > div > svg{
+    fill: #1d1c1d!important;
+}
+.tabbed__tab-buttons > div > div  > div > span:empty{
+    background-color: #1d1c1d!important;
+}
+.navigation-action-expand > div > svg {
+    fill: var(--accent)!important;
+}
+.reaction > p:not(span){
+    font-size: 12px;
+    margin:2px;
+}
+.reaction.reacted > p:not(span){
+    color: #0091ea!important;
+}
+.markdown{
+    text-rendering: optimizeLegibility;
+    font-family: var(--font)!important;
+    font-size: 15px;
+}
+div.forum-tabbed > div.view-header.tabbed__header-container > div.tabbed__header > div.tabbed__detail > div.tabbed__detail-avatar-container > img, div.team-tabbed > div.view-header.tabbed__header-container > div.tabbed__header > div.tabbed__detail > div.tabbed__detail-avatar-container > img{
+    display:none;
+}
+span[class $= "detail-content-name"]{
+    font-weight:900!important;
+    font-size:24px;
+}
+.tabbed__detail-content{
+    margin-top: 2%!important;
+}
+div.tabbed__tab-buttons{
+    height: max-content;
+}
+.tabbed__detail-avatar-container{
+    margin-right: 0px;
+    width: max-content;
+    margin-bottom: 5px;
+}
+div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div{
+    border-radius:20px!important;
+}
+div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div, .full-scroller__content > div{
+    border-radius: 20px!important;
+    border: 1px solid transparent;
+}
+div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(1){
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(3) > div > button > div > span, .button.is-primary {
+    font-weight: 600!important;
+}
+div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(4) > div > input{
+    border:none;
+    border-radius:20px;
+    padding-left:15px!important;
+}
+.bootstrap__logo::after {
+    content: "SLACK";
+    display: block;
+    color: var(--accent);
+    font-weight: 900;
+    font-size: 23px;
+    position: absolute;
+    right: -56px;
+    bottom: 4px;
+}
+.theme-novus--dark-nav .scene-space-tab-button--selected, .theme-novus-dark .scene-space-tab-button--selected, .theme-novus-dark .scene-space-tab-button--selected .scene-space-tab-button__title{
+    font-weight:900!important;
+    color: var(--accent)!important;
+}
+.team-teammates__item > div > div > div {
+    border:none!important;
+    height: 14px;
+    position: absolute;
+    right: -4px!important;
+}
+div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(4){
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.view:nth-child(3) > div > div > div > div > div > div > div:nth-child(1) > button{
+    border:none!important;
+}
+.reaction{
+    border-radius:15px;
+}
+.chat-message__avatar{
+    border-radius: 5px;
+}
+.embed__photo-src:hover{
+    opacity: 1!important;
+}
+.hashtag{
+    color: rgba(0,0,0,1) !important;
+    background-color: rgba(33,150,243,1) !important;
+    border: none!important;
+    text-decoration: none!important;
+    border-radius: 3px;
+    font-weight: 700;
+    padding: 2px 5px;
+}
+.reactions > div{
+    padding: 1px 4px 1px!important;
+}
+div.chat-message__header > .entity-list__item-avatar-presence{
+    display:none;
+}
+.is-link.chat-message__from-name{
+    font-weight: 700;
+}
+.theme-novus-dark .popup-emoji{
+    background: transparent;
+}
+.popup-emoji__quick{
+    border-bottom-left-radius: 20px!important;
+    border-bottom-right-radius: 20px!important;
+}
