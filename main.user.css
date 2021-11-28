@@ -6,6 +6,11 @@
 .theme-novus-dark .detail, .theme-novus-dark .chat-common, .theme-novus-dark .chat-common .chat-common__last-seen-label, body:not(.is-phone).theme-novus-dark .view-header, .theme-novus-dark .chat-common .chat-common__message-container, .scene-space-tab-button:hover, div[id^="ryver_view_task"] > div > div, .post-list .scroll-container, .view > div, .view-container.pane__container, .notification-list__item-body, .notification-list__item-container, div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div, .scene-space__footer:hover, .theme-novus--dark-nav .scene-space-tab-button__presence, .theme-novus-dark .scene-space-tab-button__presence, div[id^="ryver_view_task"]>div>div>div>div, li.select-item:hover, .preview-image-dialog__body, .preview-image-dialog__actions, .full-scroller__content > div, div[style ^= "font-size: 16px; color: rgba(176, 190, 197, 0.6); padding: 0px 24px 24px; box-sizing: border-box; overflow-y: auto; border-top: 1px solid rgb(55, 71, 79); border-bottom: 1px solid rgb(55, 71, 79);"] > div > div > div:nth-child(2), div[style = "color: rgb(176, 190, 197); height: 36px; line-height: 36px; overflow: hidden; opacity: 1; position: relative; padding: 0px 40px 0px 0px; text-overflow: ellipsis; top: 0px; white-space: nowrap;"], input.text-field__input, div.create-task__assignees, div.create-task__tasks > div:nth-child(2) > div, div[role = "combobox"] > div, div.update-task__tags > div:nth-child(2) > div, .full-scroller.view-task-dialog>div>div>div>div>div, .full-scroller.view-task-dialog>div>div>div>div>div>div>div:nth-child(1)>div:nth-child(2),body:not(.is-phone).theme-novus-dark .view-header, .full-scroller.view-task-dialog>div>div>div, .create-task__category > div:nth-child(2) > div, div.user-card__content > div, div.user-list-item__name, div.row.user-row {
     background-color:  white!important;
 }
+.chat-message__from-time{
+    color: rgb(97, 96, 97);
+    font-weight: 600;
+    font-size: 0.8rem;
+}
 .scene-space-tab-button:hover, .scene-space__footer:hover, li.select-item:hover {
     background-color: #3F0E40!important;
 }
@@ -19,11 +24,11 @@
     z-index: 2;
 }
 .team-teammates__item > div > div:nth-child(1) > div, .scene-space__drawer > div > div:nth-child(1) > div{
-    width: 115%;
-    left: -1.54px;
-    bottom: -2px;
+    width: 130%;
+    left: -3.54px;
+    bottom: -3.6px;
     z-index: 1;
-    height: 115%;
+    height: 130%;
 }
 .view-body>div{
     background-color:white;
@@ -212,4 +217,39 @@ div.chat-message__header > .entity-list__item-avatar-presence{
 .popup-emoji__quick{
     border-bottom-left-radius: 20px!important;
     border-bottom-right-radius: 20px!important;
+}
+div.user-card__content{
+    width:max-content!important;
+}
+div.user-card__content > div:nth-child(1){
+    display: flex!important;
+    height: max-content;
+    margin: auto!important;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 40px!important;
+    padding-right: 40px!important;
+}
+div.user-card__content > div:nth-child(2){
+    display: flex!important;
+    flex-direction: column;
+    align-items: center;
+    max-width:400px!important;
+}
+div.user-card__content > div:nth-child(1) > div:nth-child(1), div.user-card__content > div:nth-child(1) > div:nth-child(1) > img{
+    width: 140px!important;
+    position: relative!important;
+    height: 140px!important;
+}
+div.user-card__content > div:nth-child(1) > div:nth-child(2){
+    display: flex;
+    align-items: center;
+    width:100%;
+    margin-top: 5px;
+}
+div.user-card__content > div:nth-child(1) > div:nth-child(1) > div{
+    height: 40px!important;
+    right: -5px;
+    width: 40px!important;
+    bottom: 0px;
 }
