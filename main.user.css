@@ -1,3 +1,13 @@
+/* ==UserStyle==
+@name           Slacking for Ryver
+@namespace      github.com/Booperdooper255/Ryver-Slack-Theme
+@version        1.0
+@description    Ryver but Slack
+@homepageURL    https://github.com/Booperdooper255/Ryver-Slack-Theme
+@supportURL     https://github.com/Booperdooper255/Ryver-Slack-Theme/issues
+@updateURL      https://cdn.jsdelivr.net/gh/Booperdooper255/Ryver-Slack-Theme@latest/main.user.css
+@license        MIT
+==/UserStyle== */
 *{
     --accent: white;
     --font: Brandon Text,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif!important;
