@@ -220,7 +220,6 @@ div.chat-message__header > .entity-list__item-avatar-presence{
 }
 div.user-card__content{
     width:max-content!important;
-    max-width:350px!important;
 }
 div.user-card__content > div:nth-child(1){
     display: flex!important;
@@ -235,7 +234,8 @@ div.user-card__content > div:nth-child(2){
     display: flex!important;
     flex-direction: column;
     align-items: center;
-    max-width:400px!important;
+    max-width:300px!important;
+    margin:auto;
 }
 div.user-card__content > div:nth-child(1) > div:nth-child(1), div.user-card__content > div:nth-child(1) > div:nth-child(1) > img{
     width: 140px!important;
