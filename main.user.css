@@ -264,3 +264,6 @@ div.user-card__content > div:nth-child(1) > div:nth-child(1) > div{
     width: 40px!important;
     bottom: 0px;
 }
+div.user-card__content > div:nth-child(1) > div:nth-child(2) > div:nth-child(1){
+    max-width: 350px;
+}
