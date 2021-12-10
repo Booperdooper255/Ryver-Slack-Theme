@@ -279,3 +279,18 @@ div.user-card__content > div:nth-child(1) > div:nth-child(2) > div:nth-child(1){
     border:none!important;
     box-shadow:0 0 0 1px #d1c9cf, 0 1px 3px 0 rgb(0 0 0 / 8%);
 }
+div.scene-space__footer-navigation, div.scene-space__footer-navigation:hover, .scene-space__footer:hover{
+	border-top-right-radius: 25px!important;
+}
+.theme-novus-dark .scene-space__button-scroll, .theme-novus .scene-space__button-scroll{
+	border-bottom-right-radius: 25px!important;
+}
+.theme-novus .scene-space__button-wrapper, .theme-novus .scene-space__voice-status{
+	margin: auto;
+    height: 95%!important;
+	background: white!important;
+}
+.smart__pane-0:not(.is-transitioning){
+	box-shadow: none!important;
+	-webkit-box-shadow: none!important;
+}
