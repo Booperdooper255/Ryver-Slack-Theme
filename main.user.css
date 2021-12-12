@@ -280,7 +280,7 @@ div.scene-space__footer-navigation, div.scene-space__footer-navigation:hover, .s
 }
 .theme-novus .scene-space__button-wrapper, .theme-novus .scene-space__voice-status{
 	margin: auto;
-    height: 95%!important;
+    height: 90%!important;
 	background: white!important;
 }
 .smart__pane-0:not(.is-transitioning){
