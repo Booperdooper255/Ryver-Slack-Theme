@@ -10,7 +10,7 @@
 ==/UserStyle== */
 *{
     --accent: white;
-    --font: 'Google Sans', 'Roboto', sans-serif;
+    --font: 'Noto Sans', sans-serif;
 	--darker: #4A154B;
 	--med: #3F0E40;
 }
@@ -45,8 +45,11 @@
     z-index: 1;
     height: 130%;
 }
-.view-body>div{
+.view-body>div, .post-item__container, .post-item__comments-container{
     background-color:white;
+}
+div.user-card__content > div:nth-child(2) > div:nth-child(1){
+	text-align:center;
 }
 div.select-field.sidebar-select > div > div:nth-child(1) > div:nth-child(2), div[data-id = "admins"] > div > span, div[data-id = "members"] > div > span, div[data-id = "admins"] > button > div > svg, div[data-id = "members"] > button > div > svg, .theme-novus .scene-space-tab-button > span, [class ^= "team-teammates__item-name"], div.scene-space__navigation-instance, div[role = "menu"] > div > span > div > i, div.user-profile, div.team-profile, div.forum-profile, div.team-list-item__name, div.view-body > div > div > div:nth-child(2) > div > div:nth-child(1), div.view-body > div > div > div:nth-child(3) > div > div:nth-child(1), div.user-profile > div:nth-child(2) > div > label, div.row > div > div > div:nth-child(2) > div:nth-child(1), div.row > div > div > div:nth-child(2) > div:nth-child(3) > span > span:not(:nth-child(1)), div.team-profile > div:nth-child(2) > div > label, div.row > div > div > div:nth-child(2) > div:nth-child(1), div.forum-profile > div:nth-child(2) > div > label, div.row > div > div > div:nth-child(2) > div:nth-child(1){
     color: white!important;
