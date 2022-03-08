@@ -3,16 +3,16 @@
 @namespace      github.com/Booperdooper255/Ryver-Slack-Theme
 @version        1.0
 @description    Ryver but Slack
-@homepageURL    https://github.com/Booperdooper255/Ryver-Slack-Theme
-@supportURL     https://github.com/Booperdooper255/Ryver-Slack-Theme/issues
-@updateURL      https://cdn.jsdelivr.net/gh/Booperdooper255/Ryver-Slack-Theme@latest/main.user.css
+@homepageURL    https://github.com/Saransh-255/Ryver-Slack-Theme
+@supportURL     https://github.com/Saransh-255/Ryver-Slack-Theme/issues
+@updateURL      https://cdn.jsdelivr.net/gh/Saransh-255/Ryver-Slack-Theme@latest/main.user.css
 @license        MIT
 ==/UserStyle== */
 *{
     --accent: white;
     --font: 'Noto Sans', sans-serif;
 	--darker: #4A154B;
-	--med: #3F0E40;
+	--med: #581d59;
 }
 *:not(.material-icons):not(i){
 	font-family: var(--font)!important;
@@ -55,11 +55,11 @@ div.select-field.sidebar-select > div > div:nth-child(1) > div:nth-child(2), div
     color: white!important;
 }
 /*black*/
-.theme-novus--dark-nav .scene-space__footer, .theme-novus-dark .scene-space__footer, .theme-novus-dark .scene-space-tab-button, .scene-space__buttons, .theme-novus-dark .markdown-editor .markdown-editor__input, .theme-novus-dark .chat-editor__emoji, .theme-novus-dark .chat-editor__file .files-field__added, .theme-novus-dark .chat-editor__file .files-field__externals, body:not(.is-phone).theme-novus-dark .view-toolbar, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:after, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:hover, .view:nth-child(3) > div > div > div > div > div, .view.teammates-list > div > div, div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(2), div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(3), div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(4), .theme-novus--dark-nav .scene-space-tab-button--selected, .theme-novus-dark .scene-space-tab-button--selected, .popup.emoji__popup.is-active{
+.theme-novus--dark-nav .scene-space__footer, .theme-novus-dark .scene-space__footer, .theme-novus-dark .scene-space-tab-button, .scene-space__buttons, .theme-novus-dark .markdown-editor .markdown-editor__input, .theme-novus-dark .chat-editor__emoji, .theme-novus-dark .chat-editor__file .files-field__added, .theme-novus-dark .chat-editor__file .files-field__externals, body:not(.is-phone).theme-novus-dark .view-toolbar, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:after, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:hover, .view:nth-child(3) > div > div > div > div > div, .view.teammates-list > div > div, div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(2), div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(3), div[style = "position: fixed; inset: 0px; z-index: 2000;"] > div > div > div > div > div:nth-child(4), .theme-novus--dark-nav .scene-space-tab-button--selected, .theme-novus-dark .scene-space-tab-button--selected{
     background: var(--darker);
 }
 /*black but important*/
-body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:after, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:hover, .view:nth-child(3) > div > div > div > div > div > div > div:nth-child(1) > button > span, .is-loading, .popup-emoji__quick, .theme-novus-dark .popup-emoji__scroller, li.select-item, .select-field.sidebar-select, .tabbed__sidebar-container > div , .view.files-list > div > div:nth-child(2), .popup-emoji__search-container > div > input, div[style = "color: rgb(176, 190, 197); height: 36px; line-height: 36px; overflow: hidden; opacity: 1; position: relative; padding: 0px 40px 0px 0px; text-overflow: ellipsis; top: 0px; white-space: nowrap;"], div.user-profile, div.user-profile > div > div, div.view-body > div > div, div.team-row, div.user-team-list > div, div.view-body > div, div.view-toolbar > div, div.tabbed__sidebar-container > div > div{
+body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:after, body:not(.is-phone).theme-novus-dark .tabbed__sidebar-tag:hover, .view:nth-child(3) > div > div > div > div > div > div > div:nth-child(1) > button > span, .is-loading, .theme-novus-dark .popup-emoji__scroller, li.select-item, .select-field.sidebar-select, .tabbed__sidebar-container > div , .view.files-list > div > div:nth-child(2), div[style = "color: rgb(176, 190, 197); height: 36px; line-height: 36px; overflow: hidden; opacity: 1; position: relative; padding: 0px 40px 0px 0px; text-overflow: ellipsis; top: 0px; white-space: nowrap;"], div.user-profile, div.user-profile > div > div, div.view-body > div > div, div.team-row, div.user-team-list > div, div.view-toolbar > div, div.tabbed__sidebar-container > div > div{
     background-color: var(--darker)!important;
 }
 div.scene-space__footer-navigation{
@@ -116,6 +116,9 @@ span.scene-space-tab-button__title, span[class $= "tabbed__detail-content-name"]
 }
 span.is-link.chat-message__from-name, .tabbed__tab-buttons > div > div  > div, [class ^="create-task"] > label.label, div.create-task__subject > label.label, .markdown-post-editor__toolbar > button > i, div.user-card__content > div:nth-child(1) > div:nth-child(3) > button > div > svg, div.user-card__content > div:nth-child(1) > div:nth-child(3) > button > i, div.user-card__content > div:nth-child(1), .tabbed__detail-content > span, span[class $= "menu-active"] > div > div, div.ui-sortable > div > div:nth-child(2) > div > div > div:nth-child(1) > div:nth-child(2) > span, label.label,  .scene-space__below-fold, .scene-space__below-fold>i,  .scene-space__above-fold, .scene-space__above-fold>i{
     color: #1d1c1d!important;
+}
+div[style = 'color: rgba(0, 0, 0, 0.87); background-color: rgb(255, 255, 255); transition: transform 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms, opacity 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; box-sizing: border-box; font-family: "Open Sans", sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px; border-radius: 2px; position: fixed; z-index: 2100; opacity: 1; transform: scaleY(1); transform-origin: center top; max-height: 617px; overflow-y: auto; top: 240px; left: 16px;']{
+	transform-origin: center bottom!important;
 }
 div.full-scroller__content > div > div:nth-child(1){
     border-radius:20px!important;
@@ -232,6 +235,13 @@ div.chat-message__header > .entity-list__item-avatar-presence{
     border-bottom-left-radius: 20px!important;
     border-bottom-right-radius: 20px!important;
 }
+.popup-emoji__tabs{
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+.popup-emoji{
+	border-radius:20px;
+}
 div.user-card__content{
     width:max-content!important;
 }
@@ -280,6 +290,19 @@ div.user-card__content > div:nth-child(1) > div:nth-child(2) > div:nth-child(1){
 .smart__pane-0:not(.is-transitioning){
 	box-shadow: none!important;
 	-webkit-box-shadow: none!important;
+}
+div.scene-space__button-wrapper{
+	display:flex;
+	flex-direction:column-reverse;
+}
+.scene-space__above-fold{
+	top:0;
+}
+.scene-space__below-fold{
+	bottom:59px;
+}
+.navigation__item-icon.material-icons{
+	transform: rotate(180deg);
 }
 .select-field.sidebar-select{
 	height:40px!important;
