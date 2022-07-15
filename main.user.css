@@ -1,3 +1,4 @@
+@-moz-document domain("ryver.com") {
 /* ==UserStyle==
 @name           Slacking for Ryver
 @namespace      github.com/Saransh-255/Ryver-Slack-Theme
@@ -10,9 +11,9 @@
 ==/UserStyle== */
 *{
     --accent: white;
-    --font: 'Noto Sans', sans-serif;
-	--darker: #4A154B;
-	--med: #581d59;
+    --font: 'Noto Sans', calibri;
+	--darker: #282121;
+	--med: #D61C4E;
 }
 *:not(.material-icons):not(i){
 	font-family: var(--font)!important;
@@ -26,24 +27,25 @@
     font-weight: 600;
     font-size: 0.8rem;
 }
-.scene-space-tab-button:hover, .scene-space__footer:hover, li.select-item:hover {
+.scene-space-tab-button:hover, .scene-space__footer:hover, li.select-item:hover,.scene-space-tab-button--selected, .scene-space-tab-button--selected:hover {
     background-color: var(--med)!important;
-}
-.scene-space-tab-button--selected, .scene-space-tab-button--selected:hover{
-    background-color:#1164A3!important;
 }
 .team-teammates__item > div > div:nth-child(1) > img, .scene-space__drawer > div > div:nth-child(1) > img{
     width: 24px;
     position: absolute;
     height: 24px;
+	border-radius:5px;
     z-index: 2;
 }
 .team-teammates__item > div > div:nth-child(1) > div, .scene-space__drawer > div > div:nth-child(1) > div{
     width: 130%;
-    left: -3.54px;
     bottom: -3.6px;
-    z-index: 1;
     height: 130%;
+	z-index: 999;
+	filter:saturate(2);
+    position: absolute;
+    transform: scale(0.2);
+    left: -22px;
 }
 .view-body>div, .post-item__container, .post-item__comments-container{
     background-color:white;
@@ -73,7 +75,16 @@ div.scene-space__footer-navigation{
 }
 div.chat-editor{
     border: 1px solid #c3d1dd;
-    padding:3px;
+    padding: 3px;
+    display: flex;
+    border-radius: 30px;
+    align-items: center;
+}
+.chat-editor .chat-editor__send{
+	border-radius: 30px;
+    margin: auto;
+	background-color: var(--med)!important;
+	border:none!important;
 }
 .popup-emoji__tab .material-icons, span[style = "position: relative; opacity: 1; font-size: 14px; letter-spacing: 0px; text-transform: uppercase; font-weight: 500; margin: 0px; user-select: none; padding-left: 16px; padding-right: 16px; color: rgb(176, 190, 197);"] {
     color: var(--darker)!important;
@@ -312,4 +323,5 @@ div.scene-space__button-wrapper{
 }
 .scene-space__button-wrapper{
 	box-shadow:-4px 0px 21px 0px #000000b8;
+}
 }
